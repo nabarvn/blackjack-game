@@ -170,7 +170,7 @@ function showResult(winner) {
 
     } else {
       document.querySelector('#draws').textContent = blackjackGame['draws'];
-      messageColor = 'You Drew!';
+      message = 'You Drew!';
       messageColor = 'black';
 
     }
