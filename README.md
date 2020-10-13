@@ -4,7 +4,12 @@ This game is essentially the mini form of Blackjack, which is the American versi
 
 
 
+## Screenshot
+
+
 <img src="images/Screenshot.png">
+
+
 
 
 
