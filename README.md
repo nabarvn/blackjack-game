@@ -8,6 +8,7 @@ This game is essentially the mini form of Blackjack, which is the American versi
 
 
 <img src="images/Screenshot.png">
+[View Project](https://nicknabarun.github.io/blackjack-game/)
 
 
 
