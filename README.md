@@ -10,9 +10,7 @@ This game is essentially the mini form of Blackjack, which is the American versi
 <img src="images/Screenshot.png">
 
 <p align="center">
-  
-[View Project](https://nicknabarun.github.io/blackjack-game/)
-
+  <a href="https://nicknabarun.github.io/blackjack-game/">View Project</a>
 </p>
 
 
