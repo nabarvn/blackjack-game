@@ -1,8 +1,8 @@
 .container {
   /*border: 1px solid black;*/
-  width: 75%;
+  width: 75%;           /*It helps to maintain a width which is 75% of total width of the page*/
   margin: 0 auto;
-  text-align: center;
+  text-align: center;   /*Aligns every text (not table) to the center*/
 }
 
 .flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 {
@@ -15,16 +15,16 @@
   }
 
 .flex-blackjack-row-1 {
-  background: url("images/tableBackground.png") center;
-  color: #ffffff;
+  background: url("images/tableBackground.png") center;     /*'center' is used so that the center of the image is primarily visible*/
+  color: #ffffff;     /*This changes the text color to white from black and it is done for creating a contrast between image and text*/
 }
 
 .flex-blackjack-row-1 div {
   /*border: 1px solid black;*/
-  padding: 10px;
-  flex: 1;
+  padding: 10px;    /*Gives the text a little bit of breathing room*/
+  flex: 1;          /*To make sure that the flex items are taking up an equal amount of space*/
   text-align: center;
-  height: 350px;
+  height: 350px;    /*Height of the div*/
 }
 
 .flex-blackjack-row-1 img {
@@ -34,12 +34,12 @@
 
 .flex-blackjack-row-2 button {
   border: 1px solid black;
-  padding: 10px;
+  padding: 10px;   /*Padding between the buttons*/
 }
 
 .flex-blackjack-row-2 div {
   /*border: 1px solid black;*/
-  padding: 10px;
+  padding: 10px;   /*Padding between the div border and buttons*/
 }
 
 table, th, td {
