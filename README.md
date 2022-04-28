@@ -15,7 +15,6 @@ This game is essentially the mini form of Blackjack, which is the American versi
 
 
 
-
 ## How to play?
 
 
