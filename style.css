@@ -1,30 +1,32 @@
 .container {
   /*border: 1px solid black;*/
-  width: 75%;           /*It helps to maintain a width which is 75% of total width of the page*/
+  width: 75%; /*It helps to maintain a width which is 75% of total width of the page*/
   margin: 0 auto;
-  text-align: center;   /*Aligns every text (not table) to the center*/
+  text-align: center; /*Aligns every text (not table) to the center*/
 }
 
-.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 {
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3 {
   display: flex;
   /*border: 1px solid black;*/
   padding: 10px;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
-  }
+}
 
 .flex-blackjack-row-1 {
-  background: url("images/tableBackground.png") center;     /*'center' is used so that the center of the image is primarily visible*/
-  color: #ffffff;     /*This changes the text color to white from black and it is done for creating a contrast between image and text*/
+  background: url("images/tableBackground.png") center; /*'center' is used so that the center of the image is primarily visible*/
+  color: #ffffff; /*This changes the text color to white from black and it is done for creating a contrast between image and text*/
 }
 
 .flex-blackjack-row-1 div {
   /*border: 1px solid black;*/
-  padding: 10px;    /*Gives the text a little bit of breathing room*/
-  flex: 1;          /*To make sure that the flex items are taking up an equal amount of space*/
+  padding: 10px; /*Gives the text a little bit of breathing room*/
+  flex: 1; /*To make sure that the flex items are taking up an equal amount of space*/
   text-align: center;
-  height: 350px;    /*Height of the div*/
+  height: 350px; /*Height of the div*/
 }
 
 .flex-blackjack-row-1 img {
@@ -34,15 +36,31 @@
 
 .flex-blackjack-row-2 button {
   border: 1px solid black;
-  padding: 10px;   /*Padding between the buttons*/
+  padding: 10px; /*Padding between the buttons*/
 }
 
 .flex-blackjack-row-2 div {
   /*border: 1px solid black;*/
-  padding: 10px;   /*Padding between the div border and buttons*/
+  padding: 10px; /*Padding between the div border and buttons*/
 }
 
-table, th, td {
+table,
+th,
+td {
   padding: 5px;
   border: 1px solid black;
+}
+
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  #your-box h2,
+  #dealer-box h2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-blackjack-row-1 img {
+    width: 50%;
+    padding: 10px;
+  }
 }
