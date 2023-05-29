@@ -1,6 +1,12 @@
+html,
+body {
+  height: 100svh;
+}
+
 .container {
   /*border: 1px solid black;*/
   width: 75%; /*It helps to maintain a width which is 75% of total width of the page*/
+  height: 100svh;
   margin: 0 auto;
   text-align: center; /*Aligns every text (not table) to the center*/
 }
